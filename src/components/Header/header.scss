@@ -1,0 +1,38 @@
+#header {
+  background: rgba(0, 0, 0, 0.82);
+
+  .header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--navBar {
+      a {
+        font-weight: 500;
+        font-size: 23px;
+        color: azure;
+        margin: 0 30px;
+        &:focus{
+          color: rgba(29, 105, 217, 0.78);
+        }
+      }
+    }
+
+    button {
+      font-weight: 600;
+      font-size: 20px;
+      color: azure;
+      padding: 10px 30px;
+      background: rgba(5, 50, 129, 0.87);
+      border-radius: 7px;
+      transition: .5s;
+      letter-spacing: 5px;
+      &:focus{
+        color: #fff;
+        background: transparent;
+        border: 3px solid rgba(187, 206, 206, 0.13);
+      }
+    }
+  }
+}
